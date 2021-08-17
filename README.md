@@ -16,8 +16,8 @@ The distanceladder package exists in two parts; the python code, which MontePyth
 
 The datasets are in a folder "data", and within it has nine text files which will be enumerated in the next section.
 
-To install the distanceladder package, copy the likelihood folder into your montepython/likelihoods/ directory and __RENAME THE FOLDER 'DISTANCELADDER'__.
-Then, copy the data folder into your /data/ directory and __RENAME THE FOLDER 'DISTANCELADDER'__.
+To install the distanceladder package, copy the likelihood folder into your montepython/likelihoods/ directory and __RENAME THE FOLDER 'distanceladder'__.
+Then, copy the data folder into your /data/ directory and __RENAME THE FOLDER 'distanceladder'__.
 
 USAGE
 -----
