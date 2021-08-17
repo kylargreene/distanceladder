@@ -1,0 +1,3 @@
+name dist error_dist
+N4258 7.576e6 0.158e6
+LMC 49.49e3 0.63e3
