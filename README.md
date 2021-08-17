@@ -12,9 +12,12 @@ A flowchart is provided below describing the process flow of the package. The li
 INSTALLATION
 ------------
 
-The distanceladder package exists in two parts; the python code, which MontePython calls and the datasets, which distanceladder calls. The python code is contained in a folder "likelihoods/distanceladder", and within it has the two files "__init__.py" and "distanceladder.data". "__init__.py" is the code MontePython calls to calculate the chi-squared value of the likelihood. "distancealdder.data" contains the user set options which control the calibration scheme used by __init__.py. The datasets are in a folder "data/distanceladder", and within it has nine text files which will be enumerated in the next section.
+The distanceladder package exists in two parts; the python code, which MontePython calls and the datasets, which distanceladder calls. The python code is contained in a folder "likelihood", and within it has the two files "__init__.py" and "distanceladder.data". "__init__.py" is the code MontePython calls to calculate the chi-squared value of the likelihood. "distancealdder.data" contains the user set options which control the calibration scheme used by __init__.py. 
 
-To install the distanceladder package, simply copy the folders found in ../likelihoods/ and ../data/ to your own likelihoods and data folders.
+The datasets are in a folder "data", and within it has nine text files which will be enumerated in the next section.
+
+To install the distanceladder package, copy the likelihood folder into your montepython/likelihoods/ directory and __RENAME THE FOLDER 'DISTANCELADDER'__.
+Then, copy the data folder into your /data/ directory and __RENAME THE FOLDER 'DISTANCELADDER'__.
 
 USAGE
 -----
