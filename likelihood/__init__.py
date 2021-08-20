@@ -2,10 +2,10 @@ import os
 from montepython.likelihood_class import Likelihood
 import math as m
 import statistics as s
-#from scipy import stats
-#import scipy.linalg as la
+from scipy import stats
+import scipy.linalg as la
 import numpy as np
-#from scipy.integrate import quad
+from scipy.integrate import quad
 
 #defines a simple linear regression to be used later by the york linear regression
 def lin_reg(x,y):

@@ -1,9 +1,5 @@
 # Distance Ladder data
 distanceladder.data_directory = data.path['data']
-#distanceladder.anchor         = 'anchor_data.txt'
-#distanceladder.cepheid        = 'SHOES_cepheid_data.txt'
-#distanceladder.localsn        = 'localsn_data.txt'
-#distanceladder.hubblesn       = 'hubblesn_data.txt'
-distanceladder.calib          = 'combo'
+distanceladder.calib          = 'cepheid'
 distanceladder.anchor         = ['N4258','LMC']
 distanceladder.supernova_data = 'panth'
