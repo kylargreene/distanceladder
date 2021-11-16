@@ -12,7 +12,7 @@ A flowchart is provided below describing the process flow of the package. The li
 INSTALLATION
 ------------
 
-The distanceladder package exists in two parts; the python code, which MontePython calls and the datasets, which distanceladder calls. The python code is contained in a folder "likelihood", and within it has the two files "__init__.py" and "distanceladder.data". "__init__.py" is the code MontePython calls to calculate the chi-squared value of the likelihood. "distancealdder.data" contains the user set options which control the calibration scheme used by __init__.py. 
+The distanceladder package exists in two parts; the python code, which MontePython calls and the datasets, which distanceladder calls. The python code is contained in a folder "likelihood", and within it has the two files "__init__.py" and "distanceladder.data". "__init__.py" is the code MontePython calls to calculate the chi-squared value of the likelihood. "distanceladder.data" contains the user set options which control the calibration scheme used by __init__.py. 
 
 The datasets are in a folder "data", and within it has nine text files which will be enumerated in the next section.
 
