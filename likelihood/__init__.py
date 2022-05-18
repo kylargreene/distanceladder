@@ -739,8 +739,8 @@ class distanceladder(Likelihood):
 			name = []
 			for a in range(len(ID_list)):
 				if z_cmb_np[a] > 0.0023:
-					if z_cmb_np[a] < 0.15:
-						 name.append([ID_list[a],z_hel_np[a],z_cmb_np[a],dz_cmb_np[a],m_np[a],dm_np[a]])
+					#if z_cmb_np[a] < 0.15:
+					name.append([ID_list[a],z_hel_np[a],z_cmb_np[a],dz_cmb_np[a],m_np[a],dm_np[a]])
 			return name
 
 		#reads in the CSP hubble flow supernova data
